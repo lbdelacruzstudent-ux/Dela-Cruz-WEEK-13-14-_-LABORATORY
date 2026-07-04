@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery - Performance Optimized</title>
+
+    <!-- Load the minified CSS -->
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+
+    <h1>Product Gallery</h1>
+
+    <figure class="card">
+        <img src="product-1.webp"
+             alt="Product 1"
+             width="600"
+             height="400"
+             loading="lazy">
+        <figcaption>Product 1</figcaption>
+    </figure>
+
+    <figure class="card">
+        <img src="product-2.webp"
+             alt="Product 2"
+             width="600"
+             height="400"
+             loading="lazy">
+        <figcaption>Product 2</figcaption>
+    </figure>
+
+    <figure class="card">
+        <img src="product-3.webp"
+             alt="Product 3"
+             width="600"
+             height="400"
+             loading="lazy">
+        <figcaption>Product 3</figcaption>
+    </figure>
+
+    <!-- defer: download in parallel, run after HTML is parsed -->
+    <script src="app.js" defer></script>
+
+</body>
+</html>
